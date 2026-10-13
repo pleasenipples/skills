@@ -1,10 +1,12 @@
 # skills
 
-[![skills.sh](https://skills.sh/b/impankratov/skills)](https://skills.sh/impankratov/skills)
-[![License](https://img.shields.io/github/license/impankratov/skills)](LICENSE)
-[![GitHub last commit](https://img.shields.io/github/last-commit/impankratov/skills)](https://github.com/impankratov/skills/commits/main)
+[![skills.sh](https://skills.sh/b/pleasenipples/skills)](https://skills.sh/pleasenipples/skills)
+[![License](https://img.shields.io/github/license/pleasenipples/skills)](LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/pleasenipples/skills)](https://github.com/pleasenipples/skills/commits/main)
 
 Personal agent skills for web and general development tasks.
+
+Started from [impankratov/skills](https://github.com/impankratov/skills) (MIT).
 
 ### Git
 
@@ -14,31 +16,31 @@ Personal agent skills for web and general development tasks.
 
 Rebases die on conflicts: files half-merged, decisions lost, comments posted too early. A conflict ledger records every resolution, verifies the result, keeps fallout in a separate commit, makes you ask before commenting on an MR, then posts one folded thread per ledger plus a summary thread flagging the ⚠️ ones.
 
-Install: `npx skills add impankratov/skills -g -s ledger-rebase`
+Install: `npx skills add pleasenipples/skills -g -s ledger-rebase`
 
 #### [fix-review-threads](skills/fix-review-threads/SKILL.md)
 
 Twenty comments on an MR bury the open questions. Go one thread at a time: fix what you can with a commit, reply to the easy ones, park the rest for a human.
 
-Install: `npx skills add impankratov/skills -g -s fix-review-threads`
+Install: `npx skills add pleasenipples/skills -g -s fix-review-threads`
 
 #### [git-commit](skills/git-commit/SKILL.md)
 
 Your commit history is your changelog. This writes it the way the project expects: changes analyzed, split into logical commits, messages following the project's conventions.
 
-Install: `npx skills add impankratov/skills -g -s git-commit`
+Install: `npx skills add pleasenipples/skills -g -s git-commit`
 
 #### [git-pr](skills/git-pr/SKILL.md)
 
 Every project wants its MRs a certain way. This reads the project's rules, pushes the branch, and creates the MR on the right target with the right fields.
 
-Install: `npx skills add impankratov/skills -g -s git-pr`
+Install: `npx skills add pleasenipples/skills -g -s git-pr`
 
 #### [worktrunk-worktree](skills/worktrunk-worktree/SKILL.md)
 
 A worktree tool needs the worktree manager, not a guessed folder name. This detects whether the repo is Worktrunk-managed and routes branch switches, branch creation, and worktree creation through `wt` — including running the lifecycle hooks in the foreground before the new worktree gets used.
 
-Install: `npx skills add impankratov/skills -g -s worktrunk-worktree`
+Install: `npx skills add pleasenipples/skills -g -s worktrunk-worktree`
 
 ### Other
 
@@ -46,10 +48,10 @@ Install: `npx skills add impankratov/skills -g -s worktrunk-worktree`
 
 A Jira or YouTrack ticket is useless in an agent session until it's pulled into a local markdown report with its attachments and linked wiki pages. This does exactly that.
 
-Install: `npx skills add impankratov/skills -g -s extract-issue`
+Install: `npx skills add pleasenipples/skills -g -s extract-issue`
 
 #### [simplify-component-inputs](skills/simplify-component-inputs/SKILL.md)
 
 A component that accepts a whole object is coupled to its caller. This finds those call sites, traces which properties the component really uses, and shows you the minimum input surface it needs.
 
-Install: `npx skills add impankratov/skills -g -s simplify-component-inputs`
+Install: `npx skills add pleasenipples/skills -g -s simplify-component-inputs`
