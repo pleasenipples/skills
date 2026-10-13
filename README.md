@@ -6,8 +6,6 @@
 
 Personal agent skills for web and general development tasks.
 
-Started from [impankratov/skills](https://github.com/impankratov/skills) (MIT).
-
 ### Git
 
 #### [ledger-rebase](skills/ledger-rebase/SKILL.md)
